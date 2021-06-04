@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FashionWeek.com</title>
+    <link rel="stylesheet" type="text/css" href="/CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="/CSS/style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="part-1"> FREE SHIPPING ON ALL ORDERS OVER $100</div>
+        <div class="part-2">
+            <div class="search-box">
+                <input class="input" type="text" placeholder="Search" maxlength="50">
+                <svg class="bi bi-search" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                    <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                  </svg>
+            </div>
+
+            <a  href="/HTML/Welcome_Page.html" class="website-name">FashionWeek.com</a>
+            
+            <a href="/HTML/MyCart.html" class="my-cart">
+                <svg class="bi bi-cart3" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                  </svg>
+                 <div class="my-cart-text"> My Cart</div>
+            </a>
+            
+            <a href="/HTML/Login-Signup_Page.html" id="login-label"class="user">
+                Login
+            </a>
+            <a href="/HTML/Login-Signup_Page.html" id="signup-label"class="user">
+                Sign Up
+            </a>
+        </div>
+        <div class="part-3">
+            <div class="category">
+                <div class="sub-catg" id="sub-catg1">
+                   <a class="subcatg-btn" href="/HTML/Products_Grid.html">MEN</a>
+                   <ul class="btn-content">
+                       <li> <a href="/HTML/Products_Grid.html">Tees</a></li> 
+                       <li> <a href="">Bottoms</a></li> 
+                       <li> <a href="">Jeans</a></li>
+                       <li><a href="">Shoes</a></li>
+                   </ul>
+                </div>
+                <div class="sub-catg" id="sub-catg2">
+                    <a class="subcatg-btn" href="/HTML/Products_Grid.html">WOMEN</a>
+                   <ul class="btn-content">
+                       <li> <a href="">Tees</a></li> 
+                       <li> <a href="">Jeans</a></li> 
+                       <li> <a href="">Shorts</a></li>
+                       <li><a href="">Shoes</a></li>
+                   </ul>
+                </div>
+                <div class="sub-catg" id="sub-catg3">
+                    <a class="subcatg-btn" href="/HTML/Products_Grid.html">KIDS</a>
+                </div>
+           </div>
+        </div>
+
+    </header>
+<div class="product">
+    <div class="product-imgs">
+        <img class="big-img" id="big-img-1" src="/Imgs/Model1.jpeg" alt="">
+        <img class="big-img" id="big-img-2" src="/Imgs/Product-img2.jpg" alt="">
+        <img class="big-img" id="big-img-3" src="/Imgs/Product-img4.jpeg" alt="">
+        <ul class= "small-imgs">
+            <li><img class="small-img" id="small-img-1" src="/Imgs/Model1.jpeg" alt="img-1"></li>
+            <li><img class="small-img" id="small-img-2" src="/Imgs/Product-img2.jpg" alt="img-2"></li>
+            <li><img class="small-img" id="small-img-3" src="/Imgs/Product-img4.jpeg" alt="img-3"></li>
+        </ul>
+    </div>
+    <script src="/JavaScript/Prod_Landing.js"></script>
+    <div class="product-descriptn">
+        <span class="product-name">Tucker Denim Jacket For Men</span>
+        <span class="product-line">The original jean jacket since 1967. A symbol of self-expression for decades, and a great starting point for customization. Gets better over time from natural wear with fading, stains and holes.</span>
+        <span class="price">Price:</span>
+        <span class="price-amount">$49.99</span>
+        <span class="select-your-size">Select your size</span>
+        <ul class="size">
+            <li><input type="radio" name="size" id="xs">Extra Small</li>
+            <li><input type="radio" name="size" id="s">Small</li>
+            <li><input type="radio" name="size" id="m">Medium</li>
+            <li><input type="radio" name="size" id="l">Large</li>
+            <li><input type="radio" name="size" id="xl">Extra Large</li>
+        </ul>
+        <span class="add-to-cart" id="atc">Add To Cart</span>
+        <script src="/JavaScript/Prod_Landing.js"></script>
+        <a class="add-to-whishlist" href="/HTML/MyCart.html" >Go To Cart</a>
+        <span class="details"> Details:</span>
+        <ul class="detail-pts">
+            <li>100% Cotton</li>
+            <li>Imported</li>
+            <li>Button closure</li>
+            <li>Machine Wash</li>
+            <li>Hits at hip</li>
+            <li>Regular fit</li>
+            <li>Adjustable button waistband</li>
+        </ul>
+    </div>
+</div>
+<div class="small-product-grid">
+
+    <div class="grid-heading">Customers Also Bought</div>
+    <div class="bestsellers-grid-container">
+        <a href="/HTML/Product_Landing.html"><div class="bestsellers-grid-item">
+            <img class="bestsellers-img-item" src="/Imgs/hmgoepprod.jpeg" alt="bestsellers-item1">
+            <span class="bestsellers-item-descrptn">This is Item 1</span>
+            <span class= "bestsellers-item-price">$44.99</span>
+        </div></a>
+    
+        <a href="/HTML/Product_Landing.html"><div class="bestsellers-grid-item">
+            <img class="bestsellers-img-item" src="/Imgs/0125250500092004004NEW_00_004.jpg" alt="bestsellers-item1" alt="bestsellers-item2">
+            <span class="bestsellers-item-descrptn">This is Item 2</span>
+            <span class= "bestsellers-item-price">$39.99</span>
+        </div></a>
+        <a href="/HTML/Product_Landing.html"><div class="bestsellers-grid-item">
+            <img class="bestsellers-img-item" src="/Imgs/Product-img4.jpeg" alt="bestsellers-item3">
+            <span class="bestsellers-item-descrptn">This is Item 3</span>
+            <span class= "bestsellers-item-price">$44.99</span>
+        </div></a>
+        <a href="/HTML/Product_Landing.html"><div class="bestsellers-grid-item">
+            <img class="bestsellers-img-item" src="/Imgs/3b4826f9078f5b831ee0b40032d63023.jpg" alt="bestsellers-item4">
+            <span class= "bestsellers-item-descrptn">This is Item 4</span>
+            <span class= "bestsellers-item-price">$59.99</span>
+        </div></a>
+        <a href="/HTML/Product_Landing.html"><div class="bestsellers-grid-item">
+            <img class="bestsellers-img-item" src="/Imgs/mens_short_sleeve_t-shirt_basel_7_micro_modal_stretch_burgundy_main.jpg" alt="bestsellers-item4">
+            <span class= "bestsellers-item-descrptn">This is Item 5</span>
+            <span class= "bestsellers-item-price">$35.99</span>
+        </div></a>
+    </div>
+    <div class="grid-footer">
+        <ul>
+            <li><a href="/HTML/Products_Grid.html">STYLES FOR MEN</a></li>
+            <li><a href="/HTML/Products_Grid.html">STYLES FOR WOMEN </a></li>
+        </ul>
+    </div>
+      
+
+    <footer>
+       
+        <div class='footer-sec1'>
+           <div class="sec1-heading">Newsletter</div>
+           <div class="sec1-cnt">Subscribe to be the first to hear about our exclusive offers and latest arrivals.</div>
+           <input class="sec1-input-box"type="text">
+           <span class="sec1-go-btn">Subscribe</span>
+        </div>
+        <div class="footer-sec2">
+            <div class="sec2-heading">Customer Care</div>
+            <div class="sec2-cnt">
+                Get answers to your questions
+                <ul>
+                    <li> Refund Policy</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms Of Service</li>
+                    <li>Contact Us</li>
+                    <li>About Us</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-sec3">
+            <div class="sec3-heading">Get in touch</div>
+            <ul class="contact-social-icons">
+                <li><a class="fa fa-facebook"></a></li>
+                <li><a class="fa fa-instagram"></a></li>
+                <li><a class="fa fa-snapchat-ghost"></a></li>
+                <li><a class="fa fa-tumblr"></a></li>
+                <li><a class="fa fa-reddit"></a></li>
+                <li><a class="fa fa-youtube"></a></li>
+            </ul>
+        </div>
+
+        <div class="footer-sec4">
+            <div class="sec4-heading">Accepted Payements</div>
+            <ul class="payment-optn-icons">
+                <li><i class="fa fa-cc-amex"></i></li>
+                <li><i class="fa fa-cc-discover"></i></li>
+                <li><i class="fa fa-cc-mastercard"></i></li>
+                <li><i class="fa fa-cc-visa"></i>></li>
+                <li><i class="fa fa-paypal"></i></li>
+            </ul>
+            
+        </div>
+        <div class="copyright-logo"> Copyright 2020. All Rights Reserved.</div>
+
+    </footer>
+
+</body>
+
+
+</body>
+</html>
